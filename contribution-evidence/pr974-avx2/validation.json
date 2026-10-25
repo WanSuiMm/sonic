@@ -1,0 +1,149 @@
+{
+  "source_commit": "57b98f2678d5ee897525942edfd53b3922b48c51",
+  "parent_commit": "0c260f4d13d748274c030e153ff0398657fd57be",
+  "status": "PASS",
+  "finite_catalog": {
+    "unique_inputs": 6440,
+    "config_std_comparisons_per_setting": 19320,
+    "linux_settings": 16,
+    "windows_final_candidate_settings": 4,
+    "config_std_mismatches": 0,
+    "not_independent_fuzz_samples": true
+  },
+  "linux_suites": [
+    {
+      "id": "root_full_1.27.3",
+      "sdk": "go version go1.27.3 linux/amd64",
+      "sonic_environment": {},
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "b6308639862b5a403d2b2084ae2921f83c31a1b61f7c17384ab378417f855cf6"
+    },
+    {
+      "id": "issue_module_full_1.27.3",
+      "sdk": "go version go1.27.3 linux/amd64",
+      "sonic_environment": {},
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "27ae0bd68cd5aacebb2392933b4d630797716e0a07c04a00560879b6e11004f1"
+    },
+    {
+      "id": "issue938_default_1.27.3",
+      "sdk": "go version go1.27.3 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "0",
+        "SONIC_USE_FASTMAP": "0",
+        "SONIC_ENCODER_USE_VM": "0",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "be868aee0184d933039477d7fc24f893398738fabb6bfc72b381774eabe3eb1d"
+    },
+    {
+      "id": "native_decoder_default_1.27.3",
+      "sdk": "go version go1.27.3 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "0",
+        "SONIC_USE_FASTMAP": "0",
+        "SONIC_ENCODER_USE_VM": "0",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "17462288b6378fe9f67b797ead939ab2afa497f81b00b371b665444282414e6b"
+    },
+    {
+      "id": "issue938_optimized_1.27.3",
+      "sdk": "go version go1.27.3 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "1",
+        "SONIC_USE_FASTMAP": "1",
+        "SONIC_ENCODER_USE_VM": "1",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "fe5a92806c266c66cbde009cf346a33aebf08d4cdbcf627fcda78e86b790f8ae"
+    },
+    {
+      "id": "native_decoder_optimized_1.27.3",
+      "sdk": "go version go1.27.3 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "1",
+        "SONIC_USE_FASTMAP": "1",
+        "SONIC_ENCODER_USE_VM": "1",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "08e927430a036c2cba9155fc3eaefd8d1791bac43dfaf2519b8c48721ba63fb0"
+    },
+    {
+      "id": "issue938_default_1.26.10",
+      "sdk": "go version go1.26.10 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "0",
+        "SONIC_USE_FASTMAP": "0",
+        "SONIC_ENCODER_USE_VM": "0",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "63d20a1457e45ac9cc16ebf4128e69d91dc9e862e2cf462f04fae3a0af87f68c"
+    },
+    {
+      "id": "native_decoder_default_1.26.10",
+      "sdk": "go version go1.26.10 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "0",
+        "SONIC_USE_FASTMAP": "0",
+        "SONIC_ENCODER_USE_VM": "0",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "730e36bcbcbc48b6137297e12e2544f238f9840203018e4eb89f90c405eff585"
+    },
+    {
+      "id": "issue938_optimized_1.26.10",
+      "sdk": "go version go1.26.10 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "1",
+        "SONIC_USE_FASTMAP": "1",
+        "SONIC_ENCODER_USE_VM": "1",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "7ec0ada99f509942f5cc9bb4c024023a83831c4031a376d0d4a1ed907cb62a28"
+    },
+    {
+      "id": "native_decoder_optimized_1.26.10",
+      "sdk": "go version go1.26.10 linux/amd64",
+      "sonic_environment": {
+        "SONIC_USE_OPTDEC": "1",
+        "SONIC_USE_FASTMAP": "1",
+        "SONIC_ENCODER_USE_VM": "1",
+        "SONIC_MODE": "auto"
+      },
+      "exit_code": 0,
+      "status": "PASS",
+      "log_sha256": "3ebfb8804bad710ea774e6d888af03e3d3877d8a2ecb972b220629dcd733767c"
+    }
+  ],
+  "offline_checks": {
+    "status": "PASS",
+    "performance_status": "PASS",
+    "benchmark_logs_checked": 32,
+    "benchmark_aggregate_rows": 80,
+    "manifest_and_all_16_binary_hashes_match": true,
+    "candidate_sources_unchanged": true
+  },
+  "limits": [
+    "ARM runtime untested",
+    "Full Windows/macOS suites untested",
+    "Not the entire upstream Go/race CI matrix",
+    "No production workload or statistical significance claim"
+  ]
+}

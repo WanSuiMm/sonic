@@ -1,0 +1,16 @@
+{
+  "native/scanning.h": "04039d8f15df462af8699938cb721843570c75cc1be4baa198349907ad07cb1a",
+  "issue_test/issue938_dense_test.go": "150afb0105405b9c4fbb8bd350d3aef5b975725830e78284731ef540d46cfc51",
+  "internal/native/avx2/skip_one_text_amd64.go": "3303afdea442dd793c3bc64cdb53c314e1b673551244e95187d0844b30757985",
+  "internal/native/avx2/skip_one_subr.go": "b805680f14d11a6cb75bab557ebd6593d4d59529d326927375265658221bf550",
+  "internal/native/avx2/skip_array_text_amd64.go": "a21309299924cb999885faaefa7ed623a74c46dc690872005e757d695da77701",
+  "internal/native/avx2/skip_array_subr.go": "42d75873915fd39a1e934e488e0697262d2575ebf18ecd329ae635bdd53ee80e",
+  "internal/native/avx2/skip_object_text_amd64.go": "879b9e409af8dcacbbaa65d9ad1182f69bdb7636a4c4a1232138f92c46c9f2db",
+  "internal/native/avx2/skip_object_subr.go": "518612ed8478eae5254c66fe2592b8925c2662e8aff4e7a85944cd6c2d5204d2",
+  "internal/native/avx2/validate_one_text_amd64.go": "b3deabc69a2531dff4e42841d1a819129b5c07c213672ceeaa42ca061d45a17c",
+  "internal/native/avx2/validate_one_subr.go": "1af62e05c3807ed97a0996e03b72ad0a2e1e451b716558c3d38ad4d41d8f53ac",
+  "internal/native/avx2/value_text_amd64.go": "ac73f22cdc0aed3df934471cec2a48587d65262ff2120e1735141627c68b1401",
+  "internal/native/avx2/value_subr.go": "46066b801e9c42ddc99641dfe64d2177ea7cea042c6fa76b7ee86887b0c9d2aa",
+  "internal/native/avx2/vstring_text_amd64.go": "77eb758edb5e5c2809d848f56b5ab9e3de1d221399a2a7294290568dbfa6056a",
+  "internal/native/avx2/vstring_subr.go": "219261fc5b332394cfa84d5e4abc509f02286a3770678ae71827c31970f5c364"
+}
